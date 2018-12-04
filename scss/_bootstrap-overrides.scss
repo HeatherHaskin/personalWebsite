@@ -7,8 +7,19 @@ a {
     color: darken($primary, 10%);
   }
 }
+.item {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+@media (max-width: 500px){
 
+  .profile-photo{
+    height:auto;
+    width:50%;
+  }
 
+}
 .btn {
   border-width: 2px;
 }

@@ -200,6 +200,24 @@ header.masthead h2 {
     font-size: 1.75em;
   }
 }
+.services{
+  margin-bottom: -15px;
+}
+.services-item {
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 576px) {
+  .services {
+    margin-bottom: -30px;
+  }
+  .services .services-icons {
+    margin-bottom: 30px;
+  }
+}
 
 .portfolio {
   margin-bottom: -15px;
@@ -343,6 +361,23 @@ a:focus, a:hover, a:active {
   color: #a8e5ef;
 }
 
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: auto;
+}
+
+@media (max-width: 500px) {
+  .profile-photo {
+    height: auto;
+    width: 50%;
+  }
+}
+
 .btn {
   border-width: 2px;
 }
@@ -364,8 +399,8 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary {
-  background-color: #d3f2f7;
-  border-color: #d3f2f7;
+  background-color: #5f6a75;
+  border-color: #5f6a75;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
